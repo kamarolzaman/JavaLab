@@ -23,7 +23,7 @@ Sample page untk tunjuk command2 yg boleh gune dalam JSP!
         <title>Sample Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Henlo World!</h1>
         <h1> Employee files </h1>
         <sql:setDataSource var="db"
                            url="jdbc:sqlite:${dbfilepath}"  /> 
