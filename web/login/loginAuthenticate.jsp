@@ -1,0 +1,1 @@
+<!-- redirect user to menu.jsp using JSP redirect --!>
