@@ -1,3 +1,4 @@
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <font color="red">
     <c:if test="${not empty param.errMsg}">
         <c:out value="${param.errMsg}" />
