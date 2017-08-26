@@ -1,0 +1,20 @@
+Database created and filled using these commands:
+
+CREATE TABLE Employees (
+id INT PRIMARY KEY NOT NULL,
+age INT NOT NULL,
+first TEXT,
+last TEXT);
+
+INSERT INTO Employees VALUES
+(100, 18, "Zara", "Ali"),
+(101, 25, "Mahnaz", "Fatma"),
+(102, 30, "Zaid", "Khan"),
+(103, 28, "Sumit", "Mittal");
+
+CREATE TABLE Polls (
+male INT,
+female INT,
+beautiful INT,
+average INT,
+ugly INT);
