@@ -27,7 +27,7 @@
     <c:choose>
         <c:when test="${r.kount gt 0}"> <!– greater than 0 -->
             <c:set scope="session" var="idNo" value="${param.id}"/>
-            <c:redirect url="https://tomcat.apache.org/download-70.cgi"/>
+            <c:redirect url="menu.jsp"/>
         </c:when>
         <c:otherwise>
             <c:redirect url="login.jsp" >
